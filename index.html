@@ -1,0 +1,138 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dipanjana Ghosh | Portfolio</title>
+  <style>
+    body {font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; margin: 0; padding: 0; line-height: 1.6; color: #333; background: #f3f4f6;}
+    header {background: linear-gradient(135deg, #2563eb, #1e3a8a); color: #fff; padding: 100px 20px; text-align: center; position: relative; background-image: url('https://images.unsplash.com/photo-1517336714731-489689fd1ca8?auto=format&fit=crop&w=1600&q=80'); background-size: cover; background-position: center;}
+    header h1 {margin: 0; font-size: 3.2em; animation: fadeInDown 1s ease-in-out;}
+    header h2 {margin: 10px 0 0; font-size: 1.5em; font-weight: 400; animation: fadeInUp 1s ease-in-out;}
+    header::after {content: ""; position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: rgba(0,0,0,0.6);} 
+    header * {position: relative; z-index: 1;}
+    nav {background: #1e293b; padding: 15px; text-align: center; position: sticky; top: 0; z-index: 1000;}
+    nav a {color: #fff; margin: 0 15px; text-decoration: none; font-weight: 500; transition: color 0.3s;}
+    nav a:hover {color: #60a5fa;}
+    section {padding: 60px 20px; max-width: 1100px; margin: auto;}
+    h2 {color: #1e3a8a; margin-bottom: 20px; text-align: center; font-size: 2em; position: relative;}
+    h2::after {content: ""; width: 60px; height: 4px; background: #2563eb; display: block; margin: 10px auto; border-radius: 2px;}
+    .skills span {display: inline-block; background: #e0e7ff; padding: 10px 14px; border-radius: 20px; margin: 6px; font-weight: 500; transition: transform 0.3s;}
+    .skills span:hover {transform: scale(1.1); background: #c7d2fe;}
+    .project {background: #fff; padding: 25px; border-radius: 12px; margin-bottom: 25px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); transition: transform 0.3s;}
+    .project:hover {transform: translateY(-8px);}
+    .project h3 {margin-top: 0; color: #2563eb;}
+    footer {background: #1e293b; color: #fff; text-align: center; padding: 25px; margin-top: 40px;}
+    footer a {color: #60a5fa; text-decoration: none;}
+    .btn {display: inline-block; padding: 12px 24px; margin: 15px; border-radius: 30px; background: #2563eb; color: #fff; text-decoration: none; font-weight: bold; transition: background 0.3s, transform 0.3s;}
+    .btn:hover {background: #1d4ed8; transform: scale(1.05);}
+    @keyframes fadeInDown {from {opacity: 0; transform: translateY(-30px);} to {opacity: 1; transform: translateY(0);} }
+    @keyframes fadeInUp {from {opacity: 0; transform: translateY(30px);} to {opacity: 1; transform: translateY(0);} }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Dipanjana Ghosh</h1>
+    <h2>Computer Science Engineer | Java • SQL • Full Stack Development</h2>
+    <a href="#projects" class="btn">🚀 View My Work</a>
+    <a href="Dipanjana_cv_base.pdf" class="btn" download>📄 Download CV</a>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#experience">Trainings</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>I am a B.Tech graduate in Computer Science and Engineering from the University of Engineering and Management, Kolkata. I have a strong interest in Java and Full Stack Web Development, with hands-on experience in building scalable applications. I am passionate about solving real-world problems through technology and contributing to innovative solutions. With strong adaptability, logical thinking, and teamwork skills, I aim to grow as a versatile professional in the tech field.</p>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <div class="skills">
+      <span>C</span>
+      <span>Java</span>
+      <span>Python</span>
+      <span>SQL</span>
+      <span>Node.js</span>
+      <span>MongoDB</span>
+      <span>React.js</span>
+      <span>Bootstrap</span>
+      <span>HTML</span>
+      <span>CSS</span>
+      <span>Spring Security</span>
+      <span>Full Stack Development</span>
+    </div>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+
+    <div class="project">
+      <h3>📚 Tutorific (Full Stack Project)</h3>
+      <p>A web application that connects students and teachers based on requirements, nearest distance (Euclidean), and time schedule. Features include payment alert system, AI teaching support, secure authentication with OTP, and a real-time chat system.</p>
+      <p><b>Tech:</b> HBS, Node.js, HTML, JavaScript, SQL, Socket Connection</p>
+    </div>
+
+    <div class="project">
+      <h3>💬 Chat Application</h3>
+      <p>A messaging application supporting private, group, and protected group messages. Designed using Java Swing for UI, Java Socket for networking, and JDBC with SQL backend. Multithreading ensures efficient handling of multiple socket connections.</p>
+      <p><b>Tech:</b> Java, Swing, Java Socket, JDBC, SQL</p>
+    </div>
+
+    <div class="project">
+      <h3>📇 Smart Contact Manager</h3>
+      <p>A web-based application to manage user contacts with CRUD operations, advanced search, and integrated mail features. Includes Spring Security for authentication and JWT for secure user sessions.</p>
+      <p><b>Tech:</b> Java, Node.js, Spring Security, HTML, CSS, JWT, JavaScript</p>
+    </div>
+
+  </section>
+
+  <section id="experience">
+    <h2>Trainings</h2>
+
+    <div class="project">
+      <h3>Full Stack Developer Intern | Euphoria GenX</h3>
+      <p><i>April 2024 – August 2024</i></p>
+      <p>Worked in a team to build backend and APIs for a delivery-based application, implementing security and authentication. Tech stack used: Node.js, MongoDB, React.js.</p>
+    </div>
+
+    <div class="project">
+      <h3>Web Development Intern | Euphoria GenX</h3>
+      <p><i>April 2024 – August 2024</i></p>
+      <p>Designed and developed user-friendly web pages and dashboards using HTML, CSS, JavaScript, and Bootstrap as part of the internship program.</p>
+    </div>
+
+    <div class="project">
+      <h3>Java & Python Programming Intern | CodSoft</h3>
+      <p><i>September 2023 – October 2023</i></p>
+      <p>Worked on programming fundamentals, data structures, and algorithms using Java and Python.</p>
+    </div>
+
+    <div class="project">
+      <h3>Ethical Hacking & Web Security Training | IIT Kharagpur</h3>
+      <p><i>January 2023</i></p>
+      <p>Completed training focused on web security fundamentals, ethical hacking, and secure system design.</p>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p><b>Email:</b> <a href="mailto:dipanjanag02@gmail.com">dipanjanag02@gmail.com</a></p>
+    <p><b>Phone:</b> +91 8918543067</p>
+    <p><b>LinkedIn:</b> <a href="https://www.linkedin.com/in/dipanjana-ghosh-585a71223/" target="_blank">linkedin.com/in/dipanjana-ghosh</a></p>
+    <p><b>GitHub:</b> <a href="https://github.com/dips2002" target="_blank">github.com/dips2002</a></p>
+  </section>
+
+  <footer>
+    <p>© 2025 Dipanjana Ghosh | Portfolio</p>
+  </footer>
+
+</body>
+</html>
